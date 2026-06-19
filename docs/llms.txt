@@ -13,6 +13,8 @@
 
 ## Project Guidelines & Requirements
 - [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md): Guidelines for human and AI contributions, Git workflow.
+- [docs/backlog.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/backlog.md): Project backlog containing blockers, future features, spikes, and reminders.
+- [docs/task-template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/task-template.md): Reusable blueprint for defining tasks for AI coding agents.
 - [TASK.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/TASK.md): Initial prototype implementation steps.
 - [docs/phase-2-core-loop-spec.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/phase-2-core-loop-spec.md): Template for the Phase 2 core gameplay loop specification.
 - [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md): Architectural boundaries, game logic separations, and directory patterns.
