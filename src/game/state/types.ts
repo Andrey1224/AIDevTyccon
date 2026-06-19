@@ -39,3 +39,11 @@ export type GameState = {
   eventsSeen: string[];
   flags: Record<string, boolean>;
 };
+
+export type SaveFile = {
+  version: number;
+  createdAt: string;
+  updatedAt: string;
+  gameState: GameState;
+};
+

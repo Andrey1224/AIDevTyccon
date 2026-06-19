@@ -1,8 +1,5 @@
+import { WEEKS_PER_MONTH, MONTHS_PER_YEAR, DEFAULT_WEEKLY_BURN } from "../constants";
 import type { GameState } from "../state/types";
-
-const WEEKS_PER_MONTH = 4;
-const MONTHS_PER_YEAR = 12;
-const WEEKLY_BURN = 2_500;
 
 export function advanceWeek(state: GameState): GameState {
   const next: GameState = structuredClone(state);
@@ -19,7 +16,8 @@ export function advanceWeek(state: GameState): GameState {
     next.time.year += 1;
   }
 
-  next.company.cash -= WEEKLY_BURN;
+  next.company.cash -= DEFAULT_WEEKLY_BURN;
 
   return next;
 }
+
