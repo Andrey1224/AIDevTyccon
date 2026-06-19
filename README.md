@@ -83,6 +83,8 @@ We follow a structured branch model to maintain project stability:
 
 - [docs/llms.txt](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/llms.txt): Source-of-truth index of all project docs.
 - [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md): Quick start instructions and git workflow details.
+- [docs/backlog.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/backlog.md): Project backlog containing blockers, future features, spikes, and reminders.
+- [docs/task-template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/task-template.md): Reusable blueprint for defining tasks for AI coding agents.
 - [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md): Architectural boundaries and boundaries separating UI from engine logic.
 - [docs/phase-2-core-loop-spec.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/phase-2-core-loop-spec.md): Specification template for the Phase 2 core gameplay loop.
 - [memory-bank/activeContext.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/activeContext.md): Active goals, current status, and planned next steps.
@@ -96,5 +98,6 @@ We follow a structured branch model to maintain project stability:
 
 - **Read first**: AI agents must read [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md) and the memory-bank files before typing any code.
 - **Strict boundaries**: Do not implement any gameplay mechanics (projects, benchmarks, story events, etc.) until the Phase 2 Spec is populated and approved.
+- **Backlog items**: Backlog items are reminders, not active tasks. Do not implement them unless explicitly assigned by a human.
 - **Verify work**: Run `npm run verify` to confirm a clean build and green tests before finalizing a turn.
 - **Update memory**: Keep the memory-bank documentation up-to-date with contextual shifts.

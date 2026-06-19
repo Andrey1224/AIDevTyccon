@@ -12,6 +12,15 @@ When starting any task in this repository, you MUST read the following files in 
 
 - **No Gameplay Mechanics**: Do NOT add any gameplay systems (projects, benchmarks, events, hiring, etc.) until `docs/phase-2-core-loop-spec.md` is populated and approved.
 - **Branching Strategy**: Do NOT commit or push directly to `main`. Always work against `dev` or `feature/*` branches.
+- **Backlog Scope**: Backlog items are reminders, not active tasks. Do NOT implement them unless explicitly assigned by a human.
+
+## Planning and Backlog Rules
+
+- For broad, risky, or unclear tasks, propose a short plan before editing code.
+- Backlog items are reminders, not active tasks.
+- Do not implement anything from `docs/backlog.md` unless the user explicitly assigns it as the current task.
+- Keep changes small and focused.
+- Do not modify unrelated files.
 
 ## Definition of Done (DoD)
 

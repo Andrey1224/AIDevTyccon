@@ -2,20 +2,20 @@
 
 ## Current Goal
 
-- **Goal**: Maintain strict code quality gates, enforce safety guidelines for humans & AI, and wait for Phase 2 Core Loop Spec alignment.
+- **Goal**: Maintain strict code quality gates, enforce safety guidelines for humans & AI, plan backlog tasks, and wait for Phase 2 Core Loop Spec alignment.
 
 ## Current Status
 
+- **Completed TASK 07 (Add Backlog and Agent Task Template)**:
+  - Created [docs/backlog.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/backlog.md) outlining project blockers, post-spec priorities, infrastructure, gameplay backlog, spikes, and rules.
+  - Created [docs/task-template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/task-template.md) containing the reusable blueprint layout and safety guidelines for AI agents.
+  - Linked backlog and template files in [docs/llms.txt](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/llms.txt) and [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md).
+  - Added Planning and Backlog Rules section to [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md) to restrict gameplay implementation and mandate planning.
 - **Completed TASK 05 (Replace Default README)**:
-  - Replaced standard Vite template [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md) with a custom overview of the AI Dev Tycoon project.
-  - Linked documentation index [docs/llms.txt](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/llms.txt) in README as the main entrypoint.
-  - Outlined project status, tech stack details, dev/verify launch scripts, git workflows, and agent execution guidelines.
+  - Replaced Vite template with a custom project summary, workflows, commands, and rules.
 - **Completed TASK 04 (Team Workflow Safety Docs)**:
-  - Created PR template [.github/pull_request_template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/pull_request_template.md).
-  - Documented setup and Git workflows in [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md).
-  - Defined game logic separation boundaries in [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md).
-  - Updated [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md).
-- **Completed TASK 03**: Setup ESLint configurations, Prettier checks, Husky pre-commit hooks, lint-staged, and GitHub Actions workflow.
+  - Created templates, Contributing guidelines, and Architecture schemas.
+- **Completed TASK 03**: Setup ESLint, Prettier, Husky, lint-staged, and GitHub Actions.
 - **Completed TASK 02A**: Centralized limits, created clamp boundary formulas, extended types.
 
 ## Next Steps
