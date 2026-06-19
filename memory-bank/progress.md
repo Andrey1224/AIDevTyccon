@@ -4,16 +4,16 @@
 
 - [x] **Phase 1: Technical Scaffold** — Vite config, Tailwind, Types, initial state, time systems, Zustand store, and basic unit tests. (Completed)
 - [x] **TASK 02A: Safe Engine Foundation** — Extracted constants, implemented clamp formulas, added SaveFile types, and created custom test state helper. (Completed)
-- [x] **TASK 03: Code Quality Gates** — Integrated ESLint, Prettier, TypeScript typechecking, Vitest tests, Husky pre-commit hook hooks with lint-staged, and a GitHub Actions workflow verification suite. (Completed)
+- [x] **TASK 03: Code Quality Gates** — Integrated ESLint, Prettier, TypeScript typechecking, Vitest tests, Husky pre-commit hooks with lint-staged, and a GitHub Actions workflow verification suite. (Completed)
+- [x] **TASK 04: Team Workflow Safety Docs** — Established branch workflows, architectural boundaries, pull request templates, and AI safety guidelines. (Completed)
 - [ ] **Phase 2: Core Loop Specification & Implementation** — Detailed specifications, LLM project lifecycle, benchmarks, and story events. (Pending design sign-off)
 
 ## Recent Wins
 
-- Created strict type overrides helper for unit tests (`createTestState`) to prevent compilation errors.
-- Extracted calendar limits and burn rates to shared constants.
-- Verified test coverage and compilation build checks.
-- Initialized Memory Bank documentation framework to persist agent context.
-- Configured automated pre-commit lint/format quality gates and unified GitHub Actions verification workflow.
+- Documented clear separations of concern between React (presentation only), Zustand (store dispatching), and systems (pure mathematical calculations).
+- Formulated Git branch rules (no direct commits to main, PR via dev branch).
+- Created standard PR templates to force verification checklists on all contributions.
+- Configured Husky pre-commit format/lint and CI checks.
 
 ## Known Debt / Backlog
 

@@ -10,5 +10,8 @@
 
 ## Project Guidelines & Requirements
 - [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md): Project environment setup and run instructions.
+- [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md): Guidelines for human and AI contributions, Git workflow.
 - [TASK.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/TASK.md): Initial prototype implementation steps.
 - [docs/phase-2-core-loop-spec.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/phase-2-core-loop-spec.md): Template for the Phase 2 core gameplay loop specification.
+- [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md): Architectural boundaries, game logic separations, and directory patterns.
+- [.github/pull_request_template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/pull_request_template.md): PR submission template and checklist.

@@ -6,10 +6,12 @@
 - **Styling**: Tailwind CSS v4 (configured via `@tailwindcss/vite` plugin).
 - **State Management**: Zustand. State is defined inside [src/game/store/gameStore.ts](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/src/game/store/gameStore.ts) and is driven by an immutable tick pattern.
 - **Testing**: Vitest for unit testing, co-located in `*.test.ts` files.
+- **System Separation**: Pure TS systems calculate state transitions; React components render UI and dispatch events. See detailed guidelines in [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md).
 
 ## Project Structure
 
 ```
+.github/        # PR templates and GitHub CI Actions configurations
 src/
   app/          # Application entrypoint & layout
   game/         # Game logic engine

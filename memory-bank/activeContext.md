@@ -2,22 +2,17 @@
 
 ## Current Goal
 
-- **Goal**: Maintain strict code quality gates, persist AI context via Memory Bank, and wait for Phase 2 Core Loop Spec alignment.
+- **Goal**: Maintain strict code quality gates, enforce safety guidelines for humans & AI, and wait for Phase 2 Core Loop Spec alignment.
 
 ## Current Status
 
-- **Completed TASK 03 (Code Quality Gates)**:
-  - Formulated strict ESLint rules in [eslint.config.js](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/eslint.config.js) including type safety (`no-explicit-any`) and unused variable prevention.
-  - Setup Prettier rules in [.prettierrc](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.prettierrc) and [.prettierignore](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.prettierignore).
-  - Wired package script endpoints including `"typecheck"`, `"lint:fix"`, `"format"`, `"test"`, and a combined `"verify"` pipeline script.
-  - Initialized pre-commit hook hooks with Husky in [.husky/pre-commit](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.husky/pre-commit) and `lint-staged` in [package.json](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/package.json).
-  - Outlined GitHub Actions CI workflow in [.github/workflows/ci.yml](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/workflows/ci.yml) to run `verify` checks on pushes and PRs.
-  - Created environment markers: [.nvmrc](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.nvmrc), `engines` restrictions in package.json, and [.editorconfig](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.editorconfig).
-  - Verified local codebase passes `npm run verify` cleanly.
-- **Completed TASK 02A**:
-  - Centralized limits in [src/game/constants.ts](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/src/game/constants.ts).
-  - Created boundaries formula [src/game/formulas/clamp.ts](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/src/game/formulas/clamp.ts).
-  - Extended game types with `SaveFile` and type-safe `createTestState`.
+- **Completed TASK 04 (Team Workflow Safety Docs)**:
+  - Created PR template [.github/pull_request_template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/pull_request_template.md) containing verification checklists.
+  - Documented setup and Git workflows in [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md).
+  - Defined game logic separation boundaries in [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md).
+  - Updated [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md) with guidelines on branching, gameplay specs, and validation checks.
+- **Completed TASK 03**: Setup ESLint configurations, Prettier checks, Husky pre-commit hooks, lint-staged, and GitHub Actions workflow.
+- **Completed TASK 02A**: Centralized limits, created clamp boundary formulas, extended types.
 
 ## Next Steps
 
