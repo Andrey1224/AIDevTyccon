@@ -82,6 +82,10 @@ We follow a structured branch model to maintain project stability:
 ## Documentation Map
 
 - [docs/llms.txt](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/llms.txt): Source-of-truth index of all project docs.
+- [AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/AGENTS.md): Main repository guidelines, coding rules, and constraints.
+- [CLAUDE.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CLAUDE.md): Proxy rules for Claude Code.
+- [GEMINI.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/GEMINI.md): Proxy rules for Gemini CLI.
+- [.github/copilot-instructions.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/copilot-instructions.md): Brief rules for GitHub Copilot.
 - [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md): Quick start instructions and git workflow details.
 - [docs/backlog.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/backlog.md): Project backlog containing blockers, future features, spikes, and reminders.
 - [docs/task-template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/task-template.md): Reusable blueprint for defining tasks for AI coding agents.
@@ -90,7 +94,7 @@ We follow a structured branch model to maintain project stability:
 - [memory-bank/activeContext.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/activeContext.md): Active goals, current status, and planned next steps.
 - [memory-bank/systemPatterns.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/systemPatterns.md): Directory organization and coding conventions.
 - [memory-bank/progress.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/progress.md): Milestone logs and technical debt tracker.
-- [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md): Repository instructions and Definition of Done for AI assistants.
+- [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md): Local workspace configuration proxy.
 
 ---
 
