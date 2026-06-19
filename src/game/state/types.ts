@@ -46,4 +46,3 @@ export type SaveFile = {
   updatedAt: string;
   gameState: GameState;
 };
-

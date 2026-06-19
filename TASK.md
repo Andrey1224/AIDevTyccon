@@ -276,7 +276,6 @@ describe("advanceWeek", () => {
     expect(next.time.week).toBe(2);
   });
 
-
   it("subtracts weekly burn from cash", () => {
     const state = createInitialGameState();
     const next = advanceWeek(state);

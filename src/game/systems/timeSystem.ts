@@ -20,4 +20,3 @@ export function advanceWeek(state: GameState): GameState {
 
   return next;
 }
-

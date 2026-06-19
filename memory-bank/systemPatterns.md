@@ -35,3 +35,10 @@ memory-bank/    # AI agent session memory bank
 - **Shared Constants**: Keep all default variables, limits, and magic numbers inside [src/game/constants.ts](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/src/game/constants.ts). Do not write inline magic numbers.
 - **Mathematical Boundness**: Use the [clamp](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/src/game/formulas/clamp.ts) formula helper for updating stats like morale, trust, or progress to keep them in safe boundaries (e.g., between `MIN_METRIC_VALUE` and `MAX_METRIC_VALUE`).
 - **TypeScript Strictness**: No implicit `any`. Always use full type definitions.
+
+## Quality Gates & Verification
+
+- **Linting & Formatting**: ESLint Flat config in [eslint.config.js](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/eslint.config.js) checks code correctness (React hook bugs, strict types). Code formatting is styled via Prettier [.prettierrc](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.prettierrc).
+- **Type Checking**: Running `npm run typecheck` (`tsc --noEmit`) validates compiler constraints without building files.
+- **Git Hooks**: Pre-commit hooks are handled by Husky [.husky/pre-commit](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.husky/pre-commit) and `lint-staged` in [package.json](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/package.json), running eslint and prettier on staged files.
+- **Continuous Integration**: The GitHub Actions pipeline [.github/workflows/ci.yml](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/workflows/ci.yml) executes the combined verification test suite (`npm run verify`) on every push to main/dev or PR.

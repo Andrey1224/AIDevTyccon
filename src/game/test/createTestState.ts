@@ -8,7 +8,7 @@ type TestStateOverrides = Partial<Omit<GameState, "time" | "company">> & {
 
 export function createTestState(overrides: TestStateOverrides = {}): GameState {
   const base = createInitialGameState();
-  
+
   return {
     ...base,
     ...overrides,
@@ -20,7 +20,8 @@ export function createTestState(overrides: TestStateOverrides = {}): GameState {
       ...base.company,
       ...(overrides.company || {}),
     },
-    activeProject: overrides.activeProject !== undefined ? overrides.activeProject : base.activeProject,
+    activeProject:
+      overrides.activeProject !== undefined ? overrides.activeProject : base.activeProject,
     completedProjects: overrides.completedProjects || base.completedProjects,
     eventsSeen: overrides.eventsSeen || base.eventsSeen,
     flags: {

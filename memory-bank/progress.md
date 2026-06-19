@@ -4,6 +4,7 @@
 
 - [x] **Phase 1: Technical Scaffold** — Vite config, Tailwind, Types, initial state, time systems, Zustand store, and basic unit tests. (Completed)
 - [x] **TASK 02A: Safe Engine Foundation** — Extracted constants, implemented clamp formulas, added SaveFile types, and created custom test state helper. (Completed)
+- [x] **TASK 03: Code Quality Gates** — Integrated ESLint, Prettier, TypeScript typechecking, Vitest tests, Husky pre-commit hook hooks with lint-staged, and a GitHub Actions workflow verification suite. (Completed)
 - [ ] **Phase 2: Core Loop Specification & Implementation** — Detailed specifications, LLM project lifecycle, benchmarks, and story events. (Pending design sign-off)
 
 ## Recent Wins
@@ -12,6 +13,7 @@
 - Extracted calendar limits and burn rates to shared constants.
 - Verified test coverage and compilation build checks.
 - Initialized Memory Bank documentation framework to persist agent context.
+- Configured automated pre-commit lint/format quality gates and unified GitHub Actions verification workflow.
 
 ## Known Debt / Backlog
 
