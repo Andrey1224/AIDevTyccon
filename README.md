@@ -1,73 +1,100 @@
-# React + TypeScript + Vite
+# AI Dev Tycoon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Dev Tycoon is a browser-first management/tycoon prototype about building an AI company. The current goal is to prepare the safe technical foundation before implementing Phase 2 core loop gameplay.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Current Status
 
-## React Compiler
+- **Project Scaffold**: Ready (Vite, React, Zustand, Tailwind v4).
+- **Safe Engine Foundation**: Ready (centralized constants, clamp formula helpers, save file interfaces, and type-safe test state builders).
+- **Memory Bank**: Ready (AI session context persistence standard adopted).
+- **Quality Gates**: Ready (automated eslint, prettier, typescript checks, husky pre-commit hooks, lint-staged, and GitHub Actions CI).
+- **Team Workflow Docs**: Ready (PR templates, architecture boundaries, and contributing guidelines established).
+- **Phase 2 Gameplay**: Blocked and will not be implemented until [docs/phase-2-core-loop-spec.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/phase-2-core-loop-spec.md) is filled and approved.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Bundler & Dev Server**: Vite
+- **UI Library**: React 19
+- **Programming Language**: TypeScript
+- **State Management**: Zustand
+- **Styling**: Tailwind CSS v4
+- **Testing Framework**: Vitest
+- **Schema Validation**: Zod
+- **Linter & Formatter**: ESLint, Prettier
+- **Git Hook Utilities**: Husky, lint-staged
+- **CI/CD Platform**: GitHub Actions
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+### Installation
+
+Install dependencies using:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Local Development
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+Start the development server:
 
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+```bash
+npm run dev
 ```
+
+---
+
+## Quality Checks
+
+Run the verification pipeline to ensure everything is clean before pushing or committing:
+
+```bash
+npm run verify
+```
+
+The `verify` command runs:
+
+- **typecheck**: Verifies TypeScript compiler correctness (`tsc --noEmit`).
+- **lint**: Evaluates code quality and prevents warning accumulation (`eslint . --max-warnings=0`).
+- **format check**: Verifies code formatting style with Prettier.
+- **tests**: Runs Vitest unit tests in one-shot mode (`vitest run`).
+- **build**: Validates code compilation and bundles assets (`vite build`).
+
+---
+
+## Branch Workflow
+
+We follow a structured branch model to maintain project stability:
+
+- **`main`**: Stable production-ready branch. Direct commits/pushes are forbidden.
+- **`dev`**: Integration branch. All features are merged here first.
+- **`feature/*`**: Task-specific branches (e.g., `feature/time-constants`).
+- Merge `dev` to `main` only through Pull Request once GitHub Actions CI status checks pass cleanly.
+
+---
+
+## Documentation Map
+
+- [docs/llms.txt](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/llms.txt): Source-of-truth index of all project docs.
+- [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md): Quick start instructions and git workflow details.
+- [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md): Architectural boundaries and boundaries separating UI from engine logic.
+- [docs/phase-2-core-loop-spec.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/phase-2-core-loop-spec.md): Specification template for the Phase 2 core gameplay loop.
+- [memory-bank/activeContext.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/activeContext.md): Active goals, current status, and planned next steps.
+- [memory-bank/systemPatterns.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/systemPatterns.md): Directory organization and coding conventions.
+- [memory-bank/progress.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/progress.md): Milestone logs and technical debt tracker.
+- [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md): Repository instructions and Definition of Done for AI assistants.
+
+---
+
+## AI Agent Rules
+
+- **Read first**: AI agents must read [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md) and the memory-bank files before typing any code.
+- **Strict boundaries**: Do not implement any gameplay mechanics (projects, benchmarks, story events, etc.) until the Phase 2 Spec is populated and approved.
+- **Verify work**: Run `npm run verify` to confirm a clean build and green tests before finalizing a turn.
+- **Update memory**: Keep the memory-bank documentation up-to-date with contextual shifts.

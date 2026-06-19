@@ -2,6 +2,9 @@
 
 > This index lists documentation files in the project to help AI agents navigate context, architecture, and current execution plans.
 
+## Main Entry Point
+- [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md): High-level project summary, tech stack, getting started, branch workflow, and agent instructions.
+
 ## Core Agent Documentation
 - [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md): Coding guidelines, Definition of Done, and memory routines for agents.
 - [memory-bank/activeContext.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/activeContext.md): Active goals, current task status, and planned next steps.
@@ -9,7 +12,6 @@
 - [memory-bank/progress.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/progress.md): Milestone progress tracking, completed sprint items, and backlog.
 
 ## Project Guidelines & Requirements
-- [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md): Project environment setup and run instructions.
 - [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md): Guidelines for human and AI contributions, Git workflow.
 - [TASK.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/TASK.md): Initial prototype implementation steps.
 - [docs/phase-2-core-loop-spec.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/phase-2-core-loop-spec.md): Template for the Phase 2 core gameplay loop specification.

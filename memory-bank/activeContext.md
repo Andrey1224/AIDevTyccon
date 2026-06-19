@@ -6,11 +6,15 @@
 
 ## Current Status
 
+- **Completed TASK 05 (Replace Default README)**:
+  - Replaced standard Vite template [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md) with a custom overview of the AI Dev Tycoon project.
+  - Linked documentation index [docs/llms.txt](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/llms.txt) in README as the main entrypoint.
+  - Outlined project status, tech stack details, dev/verify launch scripts, git workflows, and agent execution guidelines.
 - **Completed TASK 04 (Team Workflow Safety Docs)**:
-  - Created PR template [.github/pull_request_template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/pull_request_template.md) containing verification checklists.
+  - Created PR template [.github/pull_request_template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/pull_request_template.md).
   - Documented setup and Git workflows in [CONTRIBUTING.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CONTRIBUTING.md).
   - Defined game logic separation boundaries in [docs/dev-architecture.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/dev-architecture.md).
-  - Updated [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md) with guidelines on branching, gameplay specs, and validation checks.
+  - Updated [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md).
 - **Completed TASK 03**: Setup ESLint configurations, Prettier checks, Husky pre-commit hooks, lint-staged, and GitHub Actions workflow.
 - **Completed TASK 02A**: Centralized limits, created clamp boundary formulas, extended types.
 
