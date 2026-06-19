@@ -2,15 +2,22 @@
 
 ## Current Goal
 
-- **Goal**: Maintain strict code quality gates, enforce safety guidelines for humans & AI, plan backlog tasks, and wait for Phase 2 Core Loop Spec alignment.
+- **Goal**: Close the Technical Infrastructure phase, preserve strict quality gates, enforce safety guidelines for humans & AI, and wait for Phase 2 Core Loop Spec design alignment.
 
 ## Current Status
 
+- **INFRASTRUCTURE PHASE: CLOSED & COMPLETED**:
+  - The entire technical scaffolding, safe engine foundations, linting/formatting pipelines, pre-commit validation hook systems, CI verification workflows, team guidelines, backlog definitions, task templates, and cross-agent instruction proxies are now **100% complete and verified**.
+- **Completed TASK 09 (Add Cross-Agent Instruction Compatibility Files)**:
+  - Created root-level [AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/AGENTS.md) with repository instructions, coding rules, and constraints.
+  - Rewrote [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md) as a proxy file.
+  - Created root-level [CLAUDE.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CLAUDE.md) pointing Claude Code to `AGENTS.md`.
+  - Created root-level [GEMINI.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/GEMINI.md) pointing Gemini-based agents to `AGENTS.md`.
+  - Created [.github/copilot-instructions.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/copilot-instructions.md) with instructions for GitHub Copilot.
+  - Updated documentation index and README documentation map.
 - **Completed TASK 07 (Add Backlog and Agent Task Template)**:
-  - Created [docs/backlog.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/backlog.md) outlining project blockers, post-spec priorities, infrastructure, gameplay backlog, spikes, and rules.
-  - Created [docs/task-template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/task-template.md) containing the reusable blueprint layout and safety guidelines for AI agents.
-  - Linked backlog and template files in [docs/llms.txt](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/llms.txt) and [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md).
-  - Added Planning and Backlog Rules section to [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md) to restrict gameplay implementation and mandate planning.
+  - Created [docs/backlog.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/backlog.md) and [docs/task-template.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/docs/task-template.md).
+  - Configured strict backlog constraint checks inside [AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/AGENTS.md) and [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md).
 - **Completed TASK 05 (Replace Default README)**:
   - Replaced Vite template with a custom project summary, workflows, commands, and rules.
 - **Completed TASK 04 (Team Workflow Safety Docs)**:

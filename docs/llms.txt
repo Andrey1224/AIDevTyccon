@@ -6,7 +6,11 @@
 - [README.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/README.md): High-level project summary, tech stack, getting started, branch workflow, and agent instructions.
 
 ## Core Agent Documentation
-- [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md): Coding guidelines, Definition of Done, and memory routines for agents.
+- [AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/AGENTS.md): Main repository rules, coding guidelines, Definition of Done, and constraints for AI coding agents.
+- [.agents/AGENTS.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.agents/AGENTS.md): Local workspace configuration proxy pointing to main repository rules.
+- [CLAUDE.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/CLAUDE.md): Instruction proxy pointing Claude Code to main repository rules.
+- [GEMINI.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/GEMINI.md): Instruction proxy pointing Gemini-based agents to main repository rules.
+- [.github/copilot-instructions.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/.github/copilot-instructions.md): Brief instructions for GitHub Copilot.
 - [memory-bank/activeContext.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/activeContext.md): Active goals, current task status, and planned next steps.
 - [memory-bank/systemPatterns.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/systemPatterns.md): System architecture, folder structure, coding conventions, and helper functions.
 - [memory-bank/progress.md](file:///Users/andriinepodymka/Desktop/AIDevTyccon/ai-dev-tycoon/memory-bank/progress.md): Milestone progress tracking, completed sprint items, and backlog.
